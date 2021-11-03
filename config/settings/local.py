@@ -11,7 +11,7 @@ SECRET_KEY = env(
     default="ISfdVax75963IkB7Z3QHVaHdIsaa6PX6FSRKt9Q6eYxAZhxy2WPRa41LFqprEQeV",
 )
 # https://docs.djangoproject.com/en/dev/ref/settings/#allowed-hosts
-ALLOWED_HOSTS = ["localhost", "0.0.0.0", "127.0.0.1"]
+ALLOWED_HOSTS = ["*"]
 
 # CACHES
 # ------------------------------------------------------------------------------
